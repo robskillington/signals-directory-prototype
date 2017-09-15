@@ -1,0 +1,118 @@
+.App {
+  
+}
+
+a:link {
+  color: #0000ee;
+}
+
+a:visited {
+  color: #0000ee;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-header .nav {
+  float: right;
+  position: relative;
+  top: -50px;
+}
+
+.App-header .nav a:link {
+  background-color: #ccc;
+}
+
+.App-content-container {
+  font-size: large;
+  padding: 0 20px;
+}
+
+.App-content-directory {
+  padding-top: 20px;
+}
+
+.App-content-filter {
+  padding-top: 20px;
+  float: right;
+  width: 300px;
+}
+
+.App-category {
+  margin: 10px 0;
+  list-style: none;
+}
+
+.App-category .glyphicon {
+  margin-right: 10px;
+}
+
+.App-category-actions,
+.App-category-actions button {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.App-filter-option {
+  display: block;
+}
+
+.App-signal {
+  padding-bottom: 10px;
+}
+
+.App-signal-description {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.App-signal-pivots {
+  display: block;
+  font-size: medium;
+}
+
+.App-signal-pivots .label {
+  margin-left: 5px;
+}
+
+.App-signal-labels {
+  display: block;
+  font-size: medium;
+}
+
+.App-signal-labels .label {
+  margin-left: 5px;
+}
+
+.App-content-drilldown {
+  padding-top: 20px;
+}
+
+.App-drilldown-controls {
+  padding: 0 20px;
+}
+
+.App-drilldown-segment {
+  margin-bottom: 20px;
+}
+
+.App-drilldown-segment input {
+  padding: 10px 16px;
+}
+
+.App-drilldown-controls .jumbotron {
+  background-color: transparent;
+}
+
+.App-drilldown-controls .jumbotron h1 {
+  text-align: center;
+}
+
+.App-drilldown-graph {
+  float: right;
+}
